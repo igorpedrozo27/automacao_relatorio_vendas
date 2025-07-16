@@ -1,0 +1,4 @@
+openpyxl
+pandas
+pathlib
+win32com.client
