@@ -21,35 +21,6 @@ A rotina implementada neste projeto realiza as seguintes tarefas:
       * Melhor e pior loja do dia (baseado em faturamento)
       * Melhor e pior loja do ano (baseado em faturamento)
 
-## Instruções de Instalação
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/igorpedrozo27/automacao_processos_e_analise_dados.git
-cd automacao_processos_e_analise_dados
-```
-
-2. Crie um ambiente virtual:
-```bash
-python -m venv .venv
-source .venv/bin/activate  # No Windows: .venv\Scripts\activate
-```
-
-3. Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
-
-## Como Executar o Projeto
-
-1. Certifique-se de que os arquivos `Emails.xlsx`, `Vendas.xlsx` e `Lojas.csv` estão no diretório `Bases de Dados/`
-2. Edite o arquivo `Emails.xlsx` substituindo os e-mails dos gerentes pelos seus próprios e-mails para testes
-3. Execute o script principal:
-```bash
-python main.py
-```
-
-**Nota:** O Outlook deve estar configurado e aberto para o envio automático funcionar corretamente.
 
 ## Descrição dos Dados Utilizados
 
